@@ -1,0 +1,18 @@
+/*****************************************************************
+ ** SGAL Simple Genetic Algorithm Library
+ **
+ ** Copyright (c) 1995, Neal A. Sanche
+ *****************************************************************/
+
+#ifndef HEADER_H_
+#define HEADER_H_
+
+class Class {	
+public:		
+  Class();	
+  Class(const Class&);
+  Class& operator=(const Class&);
+  virtual ~Class();
+};
+
+#endif // HEADER_H_
